@@ -1,0 +1,21 @@
+{
+	"name": "api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node --watch src/index.js",
+		"db": "node --watch src/config/conexion.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@sequelize/mssql": "^7.0.0-alpha.43",
+		"bcrypt": "^5.1.1",
+		"dotenv": "^16.4.7",
+		"express": "^4.21.2",
+		"jsonwebtoken": "^9.0.2"
+	}
+}
