@@ -57,7 +57,7 @@ routerProducto.get('/obtenerProductoID/:id', (req, res) => {
 	}
 });
 
-routerProducto.get('/buscarProductoNombre/', (req, res) => {
+routerProducto.get('/buscarProductoNombre', (req, res) => {
 	if (req.rol) {
 		buscarProductoNombre(req, res);
 	}
